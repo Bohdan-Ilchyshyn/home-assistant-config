@@ -1,0 +1,23 @@
+title: Home assistant
+
+views:
+  
+  - title: Main
+    icon: mdi:home-assistant
+
+    cards:
+      - type: weather-forecast
+        entity: weather.home
+
+
+  - title: Lights
+    icon: mdi:lightbulb-on
+
+    cards:
+      - type: entities
+        title: WLEDs
+        icon: mdi:led-strip-variant
+        show_header_toggle: true
+        entities:
+          - entity: light.balcony_led
+            name: Plant led

@@ -1,0 +1,1 @@
+error 2021-12-03 21:24:05: Error while starting zigbee-herdsman
