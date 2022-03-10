@@ -1,0 +1,15 @@
+title: Climate
+icon: mdi:thermometer-lines
+
+cards:
+
+    - type: vertical-stack
+      cards:
+      
+        - type: markdown
+          style: |
+              ha-card {
+                font-size: 26px;
+              }          
+          content: >
+              Monitoring
